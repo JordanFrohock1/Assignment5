@@ -17,7 +17,7 @@ git merge master
 
 
  */
-   /*  System.out.println("Would you like to see a dog or a cat?");
+     System.out.println("Would you like to see a dog or a cat?");
     String answer = System.console().readLine();
     if (answer.equals("dog")) {
         System.out.println("Dog ASCII ART HERE");
@@ -27,6 +27,6 @@ git merge master
 
 
     }
-*/
+
 }
 }
