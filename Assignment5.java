@@ -26,6 +26,8 @@ git merge master
         System.out.println("Cat ASCII ART HERE");
 
 
+    } else {
+        System.out.println("You did not input a cat or a dog");
     }
 
 }
