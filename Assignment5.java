@@ -25,10 +25,20 @@ git merge master
     }
     
     if (answer.equals("dog")) {
-        System.out.println("Dog ASCII ART HERE");
+        System.out.println("                                            .-.");
+        System.out.println("               (___________________________()6 `-,");
+        System.out.println("                (   ______________________   /''\"`");
+        System.out.println("                //\\\\                      //\\\\");
+        System.out.println("               \"\" \"\"                     \"\" \"\"");
+
     
     } else if(answer.equals("cat")) {
-        System.out.println("Cat ASCII ART HERE");
+        System.out.println("(\"`-''-/\").___..--''\"`-._");
+        System.out.println(" `6_ 6  )   `-.  (     ).`-.__.`)");
+        System.out.println(" (_Y_.)'  ._   )  `._ `. ``-..-'");
+        System.out.println("   _..`--'_..-_/  /--'_.'");
+        System.out.println("  ((((.-''  ((((.'  (((.-'");
+
 
 
     } 
