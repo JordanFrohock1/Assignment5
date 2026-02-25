@@ -17,7 +17,7 @@ git merge master
 
 
  */
-     System.out.println("Would you like to see a dog or a cat?");
+     System.out.println("Would you like to see a dog, cat, or fish?");
     String answer = System.console().readLine();
     while (!answer.equals("dog") && !answer.equals("cat")) {
         System.out.println("Please input either dog or cat");
@@ -41,7 +41,11 @@ git merge master
 
 
 
-    } 
+    } else {
+        System.out.println("  _");
+        System.out.println("><_>");
+
+    }
 
 }
 }
