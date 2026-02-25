@@ -19,16 +19,19 @@ git merge master
  */
      System.out.println("Would you like to see a dog or a cat?");
     String answer = System.console().readLine();
+    while (!answer.equals("dog") && !answer.equals("cat")) {
+        System.out.println("Please input either dog or cat");
+        answer = System.console().readLine();
+    }
+    
     if (answer.equals("dog")) {
         System.out.println("Dog ASCII ART HERE");
     
-    } else if (answer.equals("cat")) {
+    } else if(answer.equals("cat")) {
         System.out.println("Cat ASCII ART HERE");
 
 
-    } else {
-        System.out.println("You did not input a cat or a dog");
-    }
+    } 
 
 }
 }
